@@ -4,7 +4,7 @@ BIN_DIR := /usr/local/bin
 all: build
 
 build: $(NAME).c
-	gcc -Wall -Wextra -o $(NAME) $<
+	gcc -Wall -Wextra -o $(NAME) -lm $< 
 
 test: build
 	./$(NAME) -c "September 28, 1988"
