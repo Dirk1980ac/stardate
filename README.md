@@ -1,14 +1,14 @@
-#stardate
+# stardate
 
 Displays the current stardate in Star Trek: The Next Generation notation
 
-##Installation
+## Installation
 
 ```bash
 make && sudo make install
 ```
 
-##Usage
+## Usage
 
 Running the program with no arguments will return the stardate for the current date and time:
 
@@ -31,7 +31,7 @@ stardate -s 0
 stardate --stardate 0
 ```
 
-##Acknowledgements
+## Acknowledgements
 
 The algorithm is derived from the calculations on [trekguide.com](http://trekguide.com/Stardates.htm).
 
